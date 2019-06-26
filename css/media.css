@@ -1,0 +1,212 @@
+@media screen and (min-width: 680px) {
+    body {
+        font-size: 14px;
+    }
+
+    .nav-btn,
+    .contacts-btn {
+        display: none;
+    }
+
+    .main-nav ul {
+        position: static;
+        width: auto;
+        background: none;
+        display: block;
+        float: left;
+    }
+
+    .main-nav li {
+        display: inline-block;
+        margin-right: 14px;
+    }
+
+    .main-nav a {
+        font-size: 14px;
+        display: inline-block;
+        padding: 10px 8px;
+        border: none;
+    }
+
+    .main-nav li:last-child a:hover {
+        border-bottom: 1px solid #1388b7;
+    }
+
+    .contacts-nav {
+        position: static;
+        width: auto;
+        background: none;
+        float: right;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contacts-nav div {
+        margin-right: 14px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promo {
+        height: 538px;
+        background: url(../images-css/bg-web.png)  center center no-repeat;
+    }
+
+    .item {
+        width: 50%;
+    }
+
+    .col {
+        width: 50%;
+    }
+
+    .service-bottom {
+        text-align: start;
+    }
+
+    .info-item {
+        width: 33.3%;
+    }
+
+    .info-items:nth-last-child(2n+1) {
+        border-right: none;
+    }
+
+    .info-sale {
+        flex-direction: row;
+        text-align: start;
+    }
+
+    .info-sale-item {
+        flex-grow: 1;
+    }
+
+    .free-order-inner {
+        margin-left: 20px;
+    }
+
+}
+@media screen and (min-width: 980px) {
+    body {
+        font-size: 16px;
+    }
+
+    .main-nav li {
+        margin-right: 2px;
+    }
+
+    .main-nav li a {
+        padding: 8px 19px;
+    }
+
+    .logo-small {
+        display: none;
+    }
+
+    .phone-block i,
+    .address-block i {
+        color: #0092cd;
+    }
+
+    .phone-block,
+    .address-block {
+        color: #ffffff;
+        border-bottom: none;
+    }
+
+    .phone-block:hover,
+    .address-block:hover {
+        border-bottom: none;
+    }
+
+    .item {
+        width: 33.3%;
+    }
+
+    .col {
+        width: 25%;
+    }
+
+    .info-item {
+        width: 16%;
+    }
+
+    .info-item:last-child .info-item-text {
+        border-right: none;
+    }
+
+    .info-items {
+        border-radius: 8px;
+        box-shadow: 0 6px 10px 0 rgba(238, 238, 238, 1);
+    }
+
+    .order-item {
+        width: 50%;
+    }
+
+    .order-form {
+        position: relative;
+    }
+
+    .order-form-form {
+        width: 30%;
+        position: absolute;
+        bottom: 0;
+        right: 6%;
+    }
+
+    .free-order-form {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .order-form-form input[type=tel] {
+        width: 80%;
+    }
+
+    .promoText {
+        width: 60%;
+        position: relative;
+    }
+
+    .logo {
+        display: block;
+        position: absolute;
+        top: 60%;
+        right: -60%;
+    }
+
+    .sale-block .item {
+        width: 31.6%;
+    }
+
+    .footer,
+    .footer-info {
+        flex-direction: row;
+        text-align: start;
+    }
+
+    .footer-info,
+    .footer {
+        justify-content: space-between;
+    }
+
+    .footer-nav ul {
+        float: left;
+    }
+
+    .footer-nav ul li {
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+    .footer-contacts .phone-block,
+    .footer-contacts .address-block {
+        float: right;
+    }
+
+    .footer .logo-small {
+        display: block;
+        margin: 0 61px;
+    }
+}
